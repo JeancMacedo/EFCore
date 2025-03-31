@@ -1,4 +1,6 @@
+using eCommerce2.API.Database;
 using eCommerce2.API.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 #region ConfigureService()
@@ -7,6 +9,11 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<eCommerceContext>(
+    options => options.UseSqlServer(builder.Configuration.GetConnectionString("eCommerce"))    
+);
+
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 #endregion
 
