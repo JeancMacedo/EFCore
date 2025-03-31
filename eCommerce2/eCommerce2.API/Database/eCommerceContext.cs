@@ -8,6 +8,10 @@ namespace eCommerce2.API.Database
         {
 
         }
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Contato> Contatos { get; set; }
+        public DbSet<EnderecoEntrega> EnderecosEntrega { get; set; }
+        public DbSet<Departamento> Departamentos { get; set; }
 
         #region Conexão sem distinção de ambientes de execução
         /*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
