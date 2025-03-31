@@ -1,0 +1,12 @@
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.Models\bin\Debug\net6.0\eCommerce2.Models.deps.json
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.Models\bin\Debug\net6.0\eCommerce2.Models.dll
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.Models\bin\Debug\net6.0\eCommerce2.Models.pdb
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.Models\obj\Debug\net6.0\eCommerce2.Models.csproj.AssemblyReference.cache
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.Models\obj\Debug\net6.0\eCommerce2.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.Models\obj\Debug\net6.0\eCommerce2.Models.AssemblyInfoInputs.cache
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.Models\obj\Debug\net6.0\eCommerce2.Models.AssemblyInfo.cs
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.Models\obj\Debug\net6.0\eCommerce2.Models.csproj.CoreCompileInputs.cache
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.Models\obj\Debug\net6.0\eCommerce2.Models.dll
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.Models\obj\Debug\net6.0\refint\eCommerce2.Models.dll
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.Models\obj\Debug\net6.0\eCommerce2.Models.pdb
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.Models\obj\Debug\net6.0\ref\eCommerce2.Models.dll
