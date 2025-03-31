@@ -11,7 +11,7 @@ namespace eCommerce2.API.Repositories
         List<Usuario> Get();
         Usuario Get(int id);
         void Add(Usuario usuario);
-        Usuario Update(Usuario usuario);
+        void Update(Usuario usuario);
         void Delete(int id);
 
     }
