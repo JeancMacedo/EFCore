@@ -882,6 +882,19 @@
         "runtime": {
           "bin/placeholder/eCommerce.Models.DataAnnotations.dll": {}
         }
+      },
+      "eCommerce.Models.FluentAPI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.9"
+        },
+        "compile": {
+          "bin/placeholder/eCommerce.Models.FluentAPI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eCommerce.Models.FluentAPI.dll": {}
+        }
       }
     }
   },
@@ -2233,6 +2246,11 @@
       "type": "project",
       "path": "../eCommerce.Models.DataAnnotations/eCommerce.Models.DataAnnotations.csproj",
       "msbuildProject": "../eCommerce.Models.DataAnnotations/eCommerce.Models.DataAnnotations.csproj"
+    },
+    "eCommerce.Models.FluentAPI/1.0.0": {
+      "type": "project",
+      "path": "../eCommerce.Models.FluentAPI/eCommerce.Models.FluentAPI.csproj",
+      "msbuildProject": "../eCommerce.Models.FluentAPI/eCommerce.Models.FluentAPI.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2240,7 +2258,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.9",
       "Swashbuckle.AspNetCore >= 6.2.3",
-      "eCommerce.Models.DataAnnotations >= 1.0.0"
+      "eCommerce.Models.DataAnnotations >= 1.0.0",
+      "eCommerce.Models.FluentAPI >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2273,6 +2292,9 @@
           "projectReferences": {
             "C:\\Users\\jagjemac\\Desktop\\EFCore\\eCommerce2\\eCommerce.Models.DataAnnotations\\eCommerce.Models.DataAnnotations.csproj": {
               "projectPath": "C:\\Users\\jagjemac\\Desktop\\EFCore\\eCommerce2\\eCommerce.Models.DataAnnotations\\eCommerce.Models.DataAnnotations.csproj"
+            },
+            "C:\\Users\\jagjemac\\Desktop\\EFCore\\eCommerce2\\eCommerce.Models.FluentAPI\\eCommerce.Models.FluentAPI.csproj": {
+              "projectPath": "C:\\Users\\jagjemac\\Desktop\\EFCore\\eCommerce2\\eCommerce.Models.FluentAPI\\eCommerce.Models.FluentAPI.csproj"
             }
           }
         }

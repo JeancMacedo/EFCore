@@ -66,6 +66,68 @@
         }
       }
     },
+    "C:\\Users\\jagjemac\\Desktop\\EFCore\\eCommerce2\\eCommerce.Models.FluentAPI\\eCommerce.Models.FluentAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jagjemac\\Desktop\\EFCore\\eCommerce2\\eCommerce.Models.FluentAPI\\eCommerce.Models.FluentAPI.csproj",
+        "projectName": "eCommerce.Models.FluentAPI",
+        "projectPath": "C:\\Users\\jagjemac\\Desktop\\EFCore\\eCommerce2\\eCommerce.Models.FluentAPI\\eCommerce.Models.FluentAPI.csproj",
+        "packagesPath": "C:\\Users\\jagjemac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jagjemac\\Desktop\\EFCore\\eCommerce2\\eCommerce.Models.FluentAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jagjemac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://brdevops.flex.com/M2P/_packaging/M2P_FAKE%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\jagjemac\\Desktop\\EFCore\\eCommerce2\\eCommerce2.API\\eCommerce2.API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -93,6 +155,9 @@
             "projectReferences": {
               "C:\\Users\\jagjemac\\Desktop\\EFCore\\eCommerce2\\eCommerce.Models.DataAnnotations\\eCommerce.Models.DataAnnotations.csproj": {
                 "projectPath": "C:\\Users\\jagjemac\\Desktop\\EFCore\\eCommerce2\\eCommerce.Models.DataAnnotations\\eCommerce.Models.DataAnnotations.csproj"
+              },
+              "C:\\Users\\jagjemac\\Desktop\\EFCore\\eCommerce2\\eCommerce.Models.FluentAPI\\eCommerce.Models.FluentAPI.csproj": {
+                "projectPath": "C:\\Users\\jagjemac\\Desktop\\EFCore\\eCommerce2\\eCommerce.Models.FluentAPI\\eCommerce.Models.FluentAPI.csproj"
               }
             }
           }
