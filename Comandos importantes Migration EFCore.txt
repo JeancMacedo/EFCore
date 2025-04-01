@@ -1,0 +1,2 @@
+Add-Migration  name_of_migration
+Update-Database -- (sem o uso desse comando, não cria o database no sqlserver do Visual studio)
