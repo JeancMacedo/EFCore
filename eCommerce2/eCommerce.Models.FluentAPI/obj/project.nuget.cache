@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "g3ADAROiGtJTiShTzDKDrd6HFmyR83AJsi5r5d7vxUMpNS8PQ6rmHrdu4ARseeia3i4I6BV/jG1zUe+ELS6Vsw==",
+  "dgSpecHash": "mcuzqlMIZgFMRs1/RMzf9Zk8S6RviHFm9uZpZAzvwjJSrsFhu3MtH1qO1fIVPOGOudHTuvut4GIif6Fb0GEnsQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\jagjemac\\Desktop\\EFCore\\eCommerce2\\eCommerce.Models.FluentAPI\\eCommerce.Models.FluentAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jagjemac\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",
     "C:\\Users\\jagjemac\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.9\\microsoft.entityframeworkcore.abstractions.6.0.9.nupkg.sha512",
     "C:\\Users\\jagjemac\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.9\\microsoft.entityframeworkcore.analyzers.6.0.9.nupkg.sha512",
+    "C:\\Users\\jagjemac\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.9\\microsoft.entityframeworkcore.relational.6.0.9.nupkg.sha512",
     "C:\\Users\\jagjemac\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\jagjemac\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "C:\\Users\\jagjemac\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\jagjemac\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\jagjemac\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\jagjemac\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",

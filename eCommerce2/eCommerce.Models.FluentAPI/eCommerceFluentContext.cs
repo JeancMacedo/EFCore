@@ -11,10 +11,26 @@ namespace eCommerce.Models.FluentAPI
         {
 
         }
+
         public DbSet<Usuario>? Usuarios { get; set; }
         public DbSet<Contato>? Contatos { get; set; }
         public DbSet<EnderecoEntrega>? EnderecosEntrega { get; set; }
         public DbSet<Departamento>? Departamentos { get; set; }
 
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            /* Table*, Column*, NotMapped*, DatabaseGenerated(ValueGenerateNever = None, ValueGeneratedOnAdd = Identity, ValueGeneratedOnAddOrUpdate = Computed ) */
+            modelBuilder.Entity<Usuario>().ToTable("TB_USUARIOS");
+            modelBuilder.Entity<Usuario>().Property(a => a.RG).HasMaxLength(10).HasDefaultValue("RG-AUSENTE").IsRequired();
+            modelBuilder.Entity<Usuario>().Ignore(a => a.Sexo);
+            modelBuilder.Entity<Usuario>().Property(a => a.Id).ValueGeneratedOnAdd();
+
+            modelBuilder.Entity<Usuario>().HasIndex("CPF").IsUnique().HasFilter("[CPF] is not null").HasDatabaseName("IX_CPF_UNIQUE");
+            modelBuilder.Entity<Usuario>().HasIndex(a => a.CPF);
+
+            modelBuilder.Entity<Usuario>().HasIndex("CPF", "Email");
+            modelBuilder.Entity<Usuario>().HasIndex(a=>new {a.CPF, a.Email});
+        }
     }
 }
