@@ -20,6 +20,9 @@ namespace eCommerce2.Models
 
         public string Nome { get; set; } = null!;
         public string Email { get; set; } = null!;
+
+        [Required]
+        [MaxLength(15)]
         public string? Sexo { get; set; }
 
         [Column("REGISTRO_GERAL")]

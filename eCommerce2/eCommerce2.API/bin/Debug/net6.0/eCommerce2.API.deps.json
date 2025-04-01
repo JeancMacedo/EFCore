@@ -11,7 +11,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.9",
           "Swashbuckle.AspNetCore": "6.2.3",
-          "eCommerce2.Models": "1.0.0"
+          "eCommerce.Models.DataAnnotations": "1.0.0"
         },
         "runtime": {
           "eCommerce2.API.dll": {}
@@ -481,9 +481,12 @@
           }
         }
       },
-      "eCommerce2.Models/1.0.0": {
+      "eCommerce.Models.DataAnnotations/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.9"
+        },
         "runtime": {
-          "eCommerce2.Models.dll": {}
+          "eCommerce.Models.DataAnnotations.dll": {}
         }
       }
     }
@@ -837,7 +840,7 @@
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
-    "eCommerce2.Models/1.0.0": {
+    "eCommerce.Models.DataAnnotations/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
