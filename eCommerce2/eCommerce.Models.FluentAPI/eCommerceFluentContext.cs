@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace eCommerce.Models.FluentAPI
 {
-    internal class eCommerceFluentContext : DbContext
+    public class eCommerceFluentContext : DbContext
     {
         public eCommerceFluentContext(DbContextOptions<eCommerceFluentContext> options) : base(options)
         {
