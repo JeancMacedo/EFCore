@@ -1,9 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using eCommerce.Models.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace eCommerce2.Models
 {
-
+    //nameof(Email) = "Email"
+    [Index(nameof(Email), IsUnique = true, Name = "IX_EMAIL_UNICO")]
+    [Index(nameof(Nome), nameof(CPF))]
     [Table("TB_USUARIOS")]
     public class Usuario
     {
@@ -36,5 +40,34 @@ namespace eCommerce2.Models
         public Contato? Contato { get; set; }
         public ICollection<EnderecoEntrega>? EnderecosEntrega { get; set; }
         public ICollection<Departamento>? Departamentos { get; set; }
+
+        /*
+         * * PedidosCompradosPeloCliente
+         * - ClientId*
+         * - ColaboradorId
+         * - SupervisorId
+         * 
+         * * PedidosGerenciadosPeloColaborador 
+         * - ClientId
+         * - ColaboradorId*
+         * - SupervisorId
+         * 
+         * * PedidosSupervisionadosPeloColaboradorSuperior
+         * - ClientId
+         * - ColaboradorId
+         * - SupervisorId*
+         */
+
+
+        [InverseProperty("Cliente")]
+        public ICollection<Pedido>? PedidosCompradosPeloClient { get; set; }
+
+        [InverseProperty("Colaborador")]
+        public ICollection<Pedido>? PedidosGerenciadosPeloColaborador { get; set; }
+
+        [InverseProperty("Supervisor")]
+        public ICollection<Pedido>? PedidosSupervisionadosPeloColaboradorSuperior { get; set; }
+
+
     }
 }
