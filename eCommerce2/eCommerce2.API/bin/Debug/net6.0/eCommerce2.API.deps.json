@@ -8,10 +8,12 @@
     ".NETCoreApp,Version=v6.0": {
       "eCommerce2.API/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.9",
           "Swashbuckle.AspNetCore": "6.2.3",
-          "eCommerce.Models.DataAnnotations": "1.0.0"
+          "eCommerce.Models.DataAnnotations": "1.0.0",
+          "eCommerce.Models.FluentAPI": "1.0.0"
         },
         "runtime": {
           "eCommerce2.API.dll": {}
@@ -488,6 +490,15 @@
         "runtime": {
           "eCommerce.Models.DataAnnotations.dll": {}
         }
+      },
+      "eCommerce.Models.FluentAPI/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.9",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.9"
+        },
+        "runtime": {
+          "eCommerce.Models.FluentAPI.dll": {}
+        }
       }
     }
   },
@@ -841,6 +852,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "eCommerce.Models.DataAnnotations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "eCommerce.Models.FluentAPI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

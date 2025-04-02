@@ -62,3 +62,5 @@ C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.API\bin\Debug\net6.0\runt
 C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.API\bin\Debug\net6.0\eCommerce.Models.DataAnnotations.dll
 C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.API\bin\Debug\net6.0\eCommerce.Models.DataAnnotations.pdb
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.API\bin\Debug\net6.0\eCommerce.Models.FluentAPI.dll
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce2.API\bin\Debug\net6.0\eCommerce.Models.FluentAPI.pdb

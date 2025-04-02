@@ -887,7 +887,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.9"
+          "Microsoft.EntityFrameworkCore": "6.0.9",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.9"
         },
         "compile": {
           "bin/placeholder/eCommerce.Models.FluentAPI.dll": {}

@@ -1,0 +1,12 @@
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce.Models.FluentAPI\bin\Debug\net6.0\eCommerce.Models.FluentAPI.deps.json
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce.Models.FluentAPI\bin\Debug\net6.0\eCommerce.Models.FluentAPI.dll
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce.Models.FluentAPI\bin\Debug\net6.0\eCommerce.Models.FluentAPI.pdb
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce.Models.FluentAPI\obj\Debug\net6.0\eCommerce.Models.FluentAPI.csproj.AssemblyReference.cache
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce.Models.FluentAPI\obj\Debug\net6.0\eCommerce.Models.FluentAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce.Models.FluentAPI\obj\Debug\net6.0\eCommerce.Models.FluentAPI.AssemblyInfoInputs.cache
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce.Models.FluentAPI\obj\Debug\net6.0\eCommerce.Models.FluentAPI.AssemblyInfo.cs
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce.Models.FluentAPI\obj\Debug\net6.0\eCommerce.Models.FluentAPI.csproj.CoreCompileInputs.cache
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce.Models.FluentAPI\obj\Debug\net6.0\eCommerce.Models.FluentAPI.dll
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce.Models.FluentAPI\obj\Debug\net6.0\refint\eCommerce.Models.FluentAPI.dll
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce.Models.FluentAPI\obj\Debug\net6.0\eCommerce.Models.FluentAPI.pdb
+C:\Users\jagjemac\Desktop\EFCore\eCommerce2\eCommerce.Models.FluentAPI\obj\Debug\net6.0\ref\eCommerce.Models.FluentAPI.dll
