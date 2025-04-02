@@ -47,7 +47,7 @@ namespace eCommerce.Models.FluentAPI
              */
 
 
-            modelBuilder.Entity<Usuario>().HasOne(usu=> usu.Contato).WithOne(cont=> cont.Usuario).HasForeignKey<Contato>(a=>a.UsuarioId);
+            modelBuilder.Entity<Usuario>().HasOne(usu=> usu.Contato).WithOne(cont=> cont.Usuario).HasForeignKey<Contato>(a=>a.UsuarioId).OnDelete(DeleteBehavior.Cascade);
             modelBuilder.Entity<Usuario>().HasMany(usu => usu.EnderecosEntrega).WithOne(end => end.Usuario).HasForeignKey(end=>end.UsuarioId);
             modelBuilder.Entity<Usuario>().HasMany(usu => usu.Departamentos).WithMany(dep => dep.Usuarios);
 
