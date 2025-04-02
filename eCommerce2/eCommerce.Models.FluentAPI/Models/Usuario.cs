@@ -14,9 +14,13 @@ namespace eCommerce2.Models.FluentAPI
         public string? SituacaoCadastro { get; set; }
         public DateTimeOffset DataCadastro { get; set; }
 
+        
 
         public Contato? Contato { get; set; }
         public ICollection<EnderecoEntrega>? EnderecosEntrega { get; set; }
         public ICollection<Departamento>? Departamentos { get; set; }
+
+        //
+        public double Preco { get; set; }
     }
 }
