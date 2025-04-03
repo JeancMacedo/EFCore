@@ -11,7 +11,7 @@ foreach(var setor in resultado)
     Console.WriteLine(setor.Nome);
     foreach(var colabSetor in setor.ColaboradoresSetores)
     {
-        Console.WriteLine(/*colabSetor.SetorId + */" - " + colabSetor.Colaborador.Nome);
+        Console.WriteLine(/*colabSetor.SetorId + */" - " + colabSetor.Colaborador!.Nome);
     }
 }
 Console.ReadLine();
