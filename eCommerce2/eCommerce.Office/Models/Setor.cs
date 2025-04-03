@@ -4,6 +4,7 @@
     {
         public int Id { get; set; }
         public string Nome { get; set; } = null!;
-        public ICollection<Colaborador>? Colaboradores { get; set; }
+        public ICollection<ColaboradorSetor> ColaboradoresSetores { get; set; } = null!;
+
     }
 }
