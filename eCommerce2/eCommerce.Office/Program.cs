@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 var db = new eCommerceOfficeContext();
 
-#region Many-To-Many > 2x One-To-Many
+#region Many-To-Many > for EF Core <= 3.1 
 //Setor > ColaboradoresSetores > Colaborador
 var resultado = db.Setores!.Include(a=>a.ColaboradoresSetores).ThenInclude(a=>a.Colaborador);
 foreach(var setor in resultado)
